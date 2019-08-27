@@ -16,10 +16,7 @@ public class MyRandomMethodsTest {
 		for (int i = 0; i < 1000; i++) {
 			rand = methods.randomBetween1And10();
 			
-			if (rand > 0 && rand < 11)
-				assertTrue(true);
-			else
-				assertTrue(false);
+			assertTrue((rand > 0) && (rand < 11));
 		}
 	}
 	
@@ -28,10 +25,7 @@ public class MyRandomMethodsTest {
 		for (int i = 0; i < 1000; i++) {
 			rand = methods.randomBetween11And20();
 			
-			if (rand > 10 && rand < 21)
-				assertTrue(true);
-			else
-				assertTrue(false);
+			assertTrue((rand > 10) && (rand < 21));
 		}
 	}
 	
@@ -40,10 +34,7 @@ public class MyRandomMethodsTest {
 		for (int i = 0; i < 1000; i++) {
 			rand = methods.randomBetween21And30();
 			
-			if (rand > 20 && rand < 31)
-				assertTrue(true);
-			else
-				assertTrue(false);
+			assertTrue((rand > 20) && (rand < 31));
 		}
 	}
 	
@@ -52,10 +43,7 @@ public class MyRandomMethodsTest {
 		for (int i = 0; i < 1000; i++) {
 			rand = methods.randomBetween31And40();
 			
-			if (rand > 30 && rand < 41)
-				assertTrue(true);
-			else
-				assertTrue(false);
+			assertTrue((rand > 30) && (rand < 41));
 		}
 	}
 	
@@ -64,10 +52,7 @@ public class MyRandomMethodsTest {
 		for (int i = 0; i < 1000; i++) {
 			rand = methods.randomBetween41And50();
 			
-			if (rand > 40 && rand < 51)
-				assertTrue(true);
-			else
-				assertTrue(false);
+			assertTrue((rand > 40) && (rand < 51));
 		}
 	}
 }
